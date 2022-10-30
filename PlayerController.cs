@@ -109,7 +109,8 @@ public class PlayerController : MonoBehaviour
             transform.LookAt(lookAtPoint);
         }
     }
-
+    
+    /* ONLY USE IF ALSO USING ITEM SPAWN SYSTEM - SEPERATE REPO
     void ItemSet(GameObject g)
     {
         if(!isHoldingWeapon)
@@ -126,6 +127,7 @@ public class PlayerController : MonoBehaviour
             IKSetup_L.target = heldWeaponGameObject.transform.Find("Target_L");
         }
     }
+    */
 
     void jump()
     {
